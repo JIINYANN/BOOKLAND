@@ -1,0 +1,38 @@
+/*--------麵包屑--------*/
+.text-center{
+    font-weight: lighter;
+}
+.breadcrumb {
+    background-color: #fff;
+    text-align:center !important;  
+    font-weight: lighter;
+}
+.alig a{
+    text-decoration:none;
+    color:#6c757d;
+    
+}
+.alig a:hover{
+   color:tomato;
+}
+
+/*-------title--------*/
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*-------new books--------*/
+.container .row{
+    justify-content: center; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+    align-items: flex-end;
+}
+
+.container .row .card{
+    border:none;
+}
+
+.btn-outline-danger,.btn-outline-dark{
+    font-size: 15px;
+}

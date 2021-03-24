@@ -40,8 +40,7 @@
     font-family: "微軟正黑體","黑體","宋體",sans-serif;
     text-align: left;
 }
-.links-container{
-    
+.links-container{   
     font-size: 10px; 
     margin-top: 10px;
 }
@@ -56,10 +55,9 @@
 .nav-item a{
     color:#495057;
 }
-.text-muted{
-    /* 提醒文字隱藏 */
-    visibility: hidden;
-}
+
+
+
 @media screen and (max-width: 767px){
     .wrap{
         width: 100%;
@@ -67,3 +65,19 @@
 }
 /* -- 登入註冊  end -- */
 
+/* 表格錯誤訊息start */
+.inputerror{
+    position: relative;
+}
+.error{
+    position:absolute; 
+    top:4px;
+    right: 5px;
+    /* visibility: hidden; */
+}
+.text-muted{
+    /* 提醒文字隱藏 */
+    /* visibility: hidden; */
+}
+/* 表格錯誤訊息end */
+/*錯誤紅框出現 is-invalid */

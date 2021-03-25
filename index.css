@@ -1,3 +1,4 @@
+/* --------logo & icon start----------------- */
 .jumbotron{
     margin-bottom: 0px;
     background-color: #fff;
@@ -43,7 +44,9 @@
 
 }
 }
-/* ----------導覽列 區 -------------- */
+/* --------logo & icon end----------------- */
+
+/* ----------導覽列 區 start-------------- */
 .bg-light {
     background-color: #fff!important;
 }
@@ -95,16 +98,18 @@
 .modal-content img{
     width: 90%;
 }
+/* ----------導覽列 區 end-------------- */
 
-
-/* ----------banner 區 -------------- */
+/* ----------banner 區 start-------------- */
  .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     /*圖片圓點*/
 }
-/*-------------News 區-----------------*/
+/* ----------banner 區 end-------------- */
+
+/*-------------News 區  start-----------------*/
 .title-1 h2{
    color:	#4F4F4F;
    width: 100%;
@@ -180,8 +185,9 @@
     /*展覽訊息設定*/
     text-decoration: none;
 }
-/*---------主題書--------------*/
+/*-------------News 區  end----------------*/
 
+/*---------主題書  start--------------*/
 .title-2{
     width: 100%;
     margin-top: 50px;
@@ -242,11 +248,12 @@
    
 }   
 .showall button{
-    background-color:transparent;
-    
+    background-color:transparent;   
 }
 
-/*---------TOP 10書籍-------------------*/
+/*---------主題書  end--------------*/
+
+/*---------TOP 10書籍  start-------------------*/
 .title-3{
     width: 100%;
     margin-top: 100px;
@@ -315,7 +322,9 @@
 .top10 .row{
     align-items: flex-end;
 }
- /*---------預告書區-----------*/
+/*---------TOP 10書籍  end-------------------*/
+
+ /*---------預告書區  start-----------*/
 
  .title-4{
     color:	#4F4F4F;
@@ -376,7 +385,9 @@
  color:#4F4F4F;
  border:1px solid #4f4f4f;
 }
-/*-------footer 區 --------*/
+/*---------預告書區  end-----------*/
+
+/*-------footer 區 start--------*/
 footer{
     margin-top: 300px;
     width: 100%;
@@ -393,3 +404,4 @@ footer .co .backhome{
     text-decoration: none;
     color:#000;
 }
+/*-------footer 區 end--------*/

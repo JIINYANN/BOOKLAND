@@ -12,7 +12,7 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="model-css.css">
   <link rel="stylesheet" href="login.css">
-  
+
   <title>BookLand Bookshop</title>
 </head>
 
@@ -81,11 +81,11 @@
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">攝影 Photography</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">海報書 Poster Book</a>
+              <a class="dropdown-item" href="posterbook.html">海報書 Poster Book</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">MAGAZINES</a>
+            <a class="nav-link" href="magazine.html">MAGAZINES</a>
           </li>
 
           <li class="nav-item">
@@ -126,42 +126,30 @@
             <div class="form-froup">
               <label for="exampleInputEmail1">User Name</label>
               <div class="inputerror">
-                <input type="text" id="username" class="form-control input-error" placeholder="User Name">
-                <div class="error">
-                  <img src="icon/warning.svg" alt="" width="20px">
-                </div>
+                <input type="text" id="username" class="form-control is-invalid" placeholder="User Name">
+                <small id="usererror" class="form-text text-muted">* 請輸入使用者帳號</small>
               </div>
-              <small id="usererror" class="form-text text-muted">* 請輸入使用者帳號</small>
             </div>
             <div class="form-group email-form">
               <label for="exampleInputEmail1">Email address</label>
               <div class="inputerror">
-                <input type="email" class="form-control input-error " id="email" aria-describedby="emailHelp"
+                <input type="email" class="form-control is-invalid " id="email" aria-describedby="emailHelp"
                   placeholder="Enter email">
-                <div class="error">
-                  <img src="icon/warning.svg" alt="" width="20px">
-                </div>
+                <small id="emailerror" class="form-text text-muted">* Email不是正確格式</small>
               </div>
-              <small id="emailerror" class="form-text text-muted">* Email不是正確格式</small>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Password</label>
               <div class="inputerror">
-                <input type="password" class="form-control input-error" id="password1" placeholder="Password"
+                <input type="password" class="form-control is-invalid" id="password1" placeholder="Password"
                   title="密碼至少8個字符">
-                <div class="error">
-                  <img src="icon/warning.svg" alt="" width="20px">
-                </div>
               </div>
               <br>
               <div class="inputerror">
-                <input type="password" class="form-control input-error" id="password2" placeholder="Confirm Password"
+                <input type="password" class="form-control is-invalid" id="password2" placeholder="Confirm Password"
                   title="再輸入一次密碼">
-                <div class="error">
-                  <img src="icon/warning.svg" alt="" width="20px">
-                </div>
+                <small id="passworderror" class="form-text text-muted">* 密碼至少8個字符</small>
               </div>
-              <small id="passworderror" class="form-text text-muted">* 密碼至少8個字符</small>
             </div>
             <button type="button" class="btn btn-secondary btn-block lo-btn">Sign Up</button>
           </form>
@@ -177,23 +165,17 @@
             <div class="form-group email-form">
               <label for="exampleInputEmail1">User Name</label>
               <div class="inputerror">
-                <input type="text" class="form-control input-error" id="usernameLogin" aria-describedby="emailHelp"
+                <input type="text" class="form-control is-invalid " id="usernameLogin" aria-describedby="emailHelp"
                   placeholder="User Name">
-                <div class="error">
-                  <img src="icon/warning.svg" alt="" width="20px">
-                </div>
+                <small id="usererrorLogin" class="form-text text-muted">* 帳號輸入錯誤</small>
               </div>
-              <small id="usererrorLogin" class="form-text text-muted">* 帳號輸入錯誤</small>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Password</label>
               <div class="inputerror">
-                <input type="password" class="form-control input-error" id="passwordLogin" placeholder="Password">
-                <div class="error">
-                  <img src="icon/warning.svg" alt="" width="20px">
-                </div>
+                <input type="password" class="form-control is-invalid " id="passwordLogin" placeholder="Password">
+                <small id="passworderrorLogin" class="form-text text-muted">* 密碼輸入錯誤</small>
               </div>
-              <small id="passworderrorLogin" class="form-text text-muted">* 密碼輸入錯誤</small>
             </div>
             <button type="button" class="btn btn-secondary btn-block lo-btn">Login</button>
             <div class="links-container">

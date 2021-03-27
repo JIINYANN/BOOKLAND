@@ -24,7 +24,7 @@
 }
 /*-------title end--------*/
 
-/*-------new books start--------*/
+/*------- books cover start--------*/
 .container .row{
     justify-content: center; 
     text-align: center;
@@ -39,4 +39,5 @@
 .btn-outline-danger,.btn-outline-dark{
     font-size: 15px;
 }
-/*-------new books end--------*/
+
+/*------- books cover end--------*/

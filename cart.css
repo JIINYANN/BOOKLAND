@@ -94,6 +94,7 @@ p{
     text-align:left;
 }
 .cart-discount{
+    color:#f00;
     /* 隱藏 運費折扣訊息,總金額超過2000元以上,才會顯示 */
     visibility: hidden;
 }
@@ -124,11 +125,12 @@ p{
 .cart-item{
     /* display: none; */
 }
+
 .cart-empty, .wish-empty{
     height: 200px;
     text-align: center;
     line-height: 200px;
-    display:none;/* 購物車不為空的時,顯示display:none */
+    display:none; /* 購物車不為空的時,顯示display:none */
 }
 .cart-empty p{
     font-family: "微軟正黑體","黑體","宋體",sans-serif;

@@ -1,15 +1,15 @@
-/*-----------header 區-------*/
+/*-----------header 區 start-------*/
 .jumbotron{
     margin-bottom: 0px;
     background-color: #fff;
     padding-bottom: 2rem;
 }
-.jumbotron jumbotron-fluid{
-    padding-top: 2rem; 
-}
 .jumbotron .container-fluid li{
     list-style: none;
     padding: 0 10px;
+}
+.user:hover{
+    height: 38px; 
 }
 .cart:hover{
     height: 35px;
@@ -47,7 +47,9 @@
 
 }
 }
-/*-------導覽列 區 --------*/
+/*-----------header 區-end------*/
+
+/*-------導覽列 區 start--------*/
 .bg-light {
     background-color: #fff!important;
 }
@@ -103,10 +105,16 @@
 .form-control::placeholder{
     initial-value: "ddd";
 }
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #808080;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(108 108 108 / 25%);
+}
+/*-------導覽列 區 end-------*/
 
-
-
-/*-------footer 區 --------*/
+/*-------footer 區 start --------*/
 footer{
     margin-top: 300px;
     width: 100%;
@@ -123,3 +131,14 @@ footer .co .backhome{
     text-decoration: none;
     color:#000;
 }
+
+/*-------footer 區 end --------*/
+
+/*-----登入與帳號切換 start --------*/
+.login-none{
+    display: none;
+} 
+.user-none{
+    /* display: none; */
+}
+/*-----登入與帳號切換 end--------*/
